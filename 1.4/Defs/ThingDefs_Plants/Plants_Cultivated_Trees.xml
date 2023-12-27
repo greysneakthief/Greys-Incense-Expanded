@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TreeBase">
+		<defName>GI_Boswellia</defName>
+		<label>Boswellia</label>
+		<description>The trees of the genus Boswellia famous for their resin, including the highly esteemed Frankincense. An arid hardy tree with a relatively short growing period makes these trees an excellent choice for the budding incense manufacturer, in spite of the more meticulous method of harvesting the resin.</description>
+		<graphicData>
+			<texPath>Things/Plants/Trees/GI_Boswellia/Ripe</texPath>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+
+		<ingestible />
+		<plant>
+            <lifespanDaysPerGrowDays>20</lifespanDaysPerGrowDays>
+            <fertilitySensitivity>0.7</fertilitySensitivity>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>30</growDays>
+			<visualSizeRange>0.3~2.0</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.5</fertilityMin>
+			<topWindExposure>0.15</topWindExposure>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<immatureGraphicPath>Things/Plants/Trees/GI_Boswellia/Immature</immatureGraphicPath>
+			<leaflessGraphicPath>Things/Plants/Trees/GI_Boswellia/Fall</leaflessGraphicPath>
+			<harvestWork>1000</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>20</harvestYield>
+			<harvestedThingDef>GI_Frankincense</harvestedThingDef>
+			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.60</harvestAfterGrowth>
+		</plant>
+	</ThingDef>
+
+    <ThingDef ParentName="TreeBase">
+		<defName>GI_Sandalwood</defName>
+		<label>Sandalwood</label>
+		<description>Sandalwood is often cited as one of the most expensive woods on the Rim, as both the wood and the oil produce a distinctive fragrance that has been highly valued for centuries. It takes an exceptionally long time to grow, maturing in a span of over 16 quadrums. Such lengthy growing period has historically lead to overharvesting, but the finest incenses are made from Sandalwood.</description>
+		<graphicData>
+			<texPath>Things/Plants/Trees/GI_Sandalwood</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<statBases>
+			<Beauty>5</Beauty>
+			<BeautyOutdoors>5</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+            <lifespanDaysPerGrowDays>20</lifespanDaysPerGrowDays>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>120</growDays>
+			<visualSizeRange>0.4~2.0</visualSizeRange>
+			<sowMinSkill>8</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.7</fertilityMin>
+			<topWindExposure>0.15</topWindExposure>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>50</harvestYield>
+			<harvestedThingDef>GI_Sandalwood_Lumber</harvestedThingDef>
+		</plant>
+	</ThingDef>
+
+    <ThingDef ParentName="TreeBase">
+		<defName>GI_Tabunoki</defName>
+		<label>Tabunoki</label>
+		<description>Also known as Machilus thunbergii, the ground bark of this tree is exceptionally suited for making into incense additives. The tree itself can grow to massive proportions.</description>
+		<graphicData>
+			<texPath>Things/Plants/Trees/GI_Tabunoki</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<statBases>
+			<Beauty>5</Beauty>
+			<BeautyOutdoors>10</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+            <lifespanDaysPerGrowDays>30</lifespanDaysPerGrowDays>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>45</growDays>
+			<visualSizeRange>0.5~2.5</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.7</fertilityMin>
+			<topWindExposure>0.15</topWindExposure>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+			<harvestWork>600</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>40</harvestYield>
+			<harvestedThingDef>GI_Tabunoki_Bark</harvestedThingDef>
+			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.50</harvestAfterGrowth>
+		</plant>
+	</ThingDef>
+</Defs>

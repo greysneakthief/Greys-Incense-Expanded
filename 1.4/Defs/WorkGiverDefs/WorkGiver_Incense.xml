@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WorkGivers>
+
+  <WorkGiverDef>
+    <DefName>DoBillsIncenseTable</DefName>
+    <giverClass>AI.WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>10</priorityInType>
+    <WorkTableDef>IncenseTable</WorkTableDef>
+    <verb>incense</verb>
+    <gerund>inscenting</gerund>
+  </WorkGiverDef>
+
+</WorkGivers>

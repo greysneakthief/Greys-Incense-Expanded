@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Patchouli_Leaves</defName>
+    <label>patchouli leaves</label>
+    <description>Raw patchouli leaves. These can be directly used to create a paste or turned into essential oils suitable for incense making.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Patchouli_Leaves/GI_Patchouli_Leaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Frankincense</defName>
+    <label>frankincense</label>
+    <description>The sappy excretions of the Boswellia family of plants have been used as crude incense for millenia. Even when raw, it can be used as potent incense.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Frankincense</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.8</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>90</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Tragacanth_Gum</defName>
+    <label>gum tragacanth</label>
+    <description>Gum tragacanth is used as an emulsifier, thickener or binding agent similar to gum arabic or carrageenan.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Tragacanth_Gum/GI_Tragacanth_Gum</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>90</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Sage_Bundle</defName>
+    <label>white sage bundle</label>
+    <description>Bundled white sage leaves have a variety of aromatic uses, including smudging.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Sage_Bundle/GI_Sage_Bundle</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>45</daysToRotStart>
+        <rotDestroys>false</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Tabunoki_Bark</defName>
+    <label>tabunoki bark</label>
+    <description>Strips of bark from the Tabunoki tree. Although it requires a lot of work to grind into fine powder, this is offset by its fine quality and unique properties that make it the best choice for making stick incense.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Tabunoki_Bark/GI_Tabunoki_Bark</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.2</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>90</daysToRotStart>
+        <rotDestroys>false</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>GI_Wild_Bergamont</defName>
+    <label>wild bergamont</label>
+    <description>In spite of sharing no genetic relationship with bergamont, Monarda plants are often called wild bergamont because of their heady aromatic similarity. These are chock full of essential oils.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/RawPlant/GI_Wild_Bergamont/GI_Wild_Bergamont</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.6</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>false</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+
+</Defs>

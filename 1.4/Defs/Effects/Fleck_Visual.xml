@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>SmokeIncense</defName>
+    <graphicData>
+      <texPath>Things/Mote/Smoke</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.50</fadeInTime>
+    <solidTime>3</solidTime>
+    <fadeOutTime>2.2</fadeOutTime>
+    <growthRate>0.005</growthRate>
+  </FleckDef>
+
+<EffecterDef>
+    <defName>MA_IncenseBurnerSmoke</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>FireBurning</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>SmokeIncense</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotationRate>-10~10</rotationRate>
+        <speed>0.1~0.30</speed>
+        <scale>0.4~0.6</scale>
+        <chancePerTick>0.05</chancePerTick>
+        <positionOffset>(0,0,0.35)</positionOffset>
+        <positionRadius>0.3</positionRadius>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>MA_StandingIncenseBurnerSmoke</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>FireBurning</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>SmokeIncense</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotationRate>-10~10</rotationRate>
+        <speed>0.1~0.30</speed>
+        <scale>0.4~0.6</scale>
+        <chancePerTick>0.05</chancePerTick>
+        <positionOffset>(0,0,0.6)</positionOffset>
+        <positionRadius>0.3</positionRadius>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>MA_IncenseSmokeCloud</defName>
+    <graphicData>
+      <color>(222, 222, 222, 25)</color>
+      <texPath>Things/Mote/Smoke</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.50</fadeInTime>
+    <solidTime>20</solidTime>
+    <fadeOutTime>0.5</fadeOutTime>
+    <growthRate>0.07</growthRate>
+  </FleckDef>
+
+</Defs>
