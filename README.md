@@ -1,6 +1,6 @@
 # Greys-Incense-Expanded
 
-Welcome to the repository for my first mod: an expansion on the lovely Epochs - Incense mod by DetVisor. This is intended to be an expansion of that. It also utilizes some edited assets from the Vanilla Expanded series of mods where placeholders are needed.
+Welcome to the repository for my first mod: an expansion on the lovely Epochs - Incense mod by DetVisor. This mod also currently utilizes some edited assets from the Vanilla Expanded series of mods where placeholders are needed.
 
 I've always felt that RimWorld lacks commodities outside of food and drugs when it comes to luxuries. The aesthetics of Epochs - Incense, and the associated environmental mood boost seemed overpowered for how little material investment there was, but I enjoyed it immensely. Thus the idea for this mod was born, before I realized that fuel implementation requires more processing power. Oh dear.
 
