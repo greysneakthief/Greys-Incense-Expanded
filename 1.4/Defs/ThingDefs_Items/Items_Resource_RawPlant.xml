@@ -6,7 +6,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingCategories>
-      <li>AromaticPlant</li>
+      <li>GI_AromaticPlant</li>
       <li>PlantMatter</li>
     </thingCategories>
   </ThingDef>

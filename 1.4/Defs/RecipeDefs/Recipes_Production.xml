@@ -587,9 +587,9 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>AromaticPlant</li>
-          </thingDefs>
+          <categories>
+            <li>GI_AromaticPlant</li>
+          </categories>
         </filter>
         <count>20</count>
       </li>
