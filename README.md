@@ -1,6 +1,6 @@
 # Greys-Incense-Expanded
 
-Welcome to the repository for my first mod: an expansion on the lovely Epochs - Incense mod by DetVisor. This mod also currently utilizes some edited assets from the Vanilla Expanded series of mods where placeholders are needed.
+Welcome to the repository for my first mod: an expansion on the lovely Epochs - Incense mod by DetVisor. This mod also currently utilizes some edited assets from the Vanilla Expanded series of mods where placeholders are needed. Currently, this mod directly uses the resources from the Epoch's mod, but I'm working on a patch. As such, this isn't ready for release into the Steam Workshop just yet, and **this release is just for testing purposes.**
 
 I've always felt that RimWorld lacks commodities outside of food and drugs when it comes to luxuries. The aesthetics of Epochs - Incense, and the associated environmental mood boost seemed overpowered for how little material investment there was, but I enjoyed it immensely. Thus the idea for this mod was born, before I realized that fuel implementation requires more processing power. Oh dear.
 
@@ -33,6 +33,7 @@ Current workload -->
 - Better art for sage bundles.
 - Better art for essential oils.
 - Fixing the incense table, because I cannot seem to get it to work no matter how hard I try.
+- Patching for utilization of Epoch's art (to prevent redundancy errors)
 
 Next up -->
 - Incense art review and improvement.
