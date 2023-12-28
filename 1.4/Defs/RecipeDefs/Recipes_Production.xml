@@ -583,15 +583,12 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>450</workAmount>
+    <workAmount>1200</workAmount>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>GI_Sage_Bundle</li>
-            <li>GI_Patchouli_Leaves</li>
-            <li>GI_Wild_Bergamont</li>
-            <li>GI_Frankincense_Powder</li>
+            <li>AromaticPlant</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -664,7 +661,7 @@
       </li>
     </ingredients>
     <products>
-      <GI_Peerless_Paste>10</GI_Peerless_Paste>
+      <GI_Aromatic_Paste>10</GI_Aromatic_Paste>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>

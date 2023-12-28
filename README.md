@@ -26,11 +26,13 @@ Additions:
 Roadmap:
 
 Current workload -->
-- Heavily tweaking balance for harvest, crafting value add, usage of incense, etc.
+- Heavily tweaking balance for harvest, crafting value add, usage of incense, etc:
+    - <del>Recipe errors were found and fixed.</del>
+    - Will probably adjust ratios for regrowing plants, due to ease of sowing and repeatable harvests (gum tragacanth, patchouli, etc.)
 - Making incense crafting a viable stream for selling to factions:
-    - Shaman merchants and exotic wares merchants in particular.
+    - <del>Shaman merchants and exotic wares merchants in particular.</del>
 - Better art for trees.
-- Better art for sage bundles.
+- <del>Better art for sage bundles.</del>
 - Better art for essential oils.
 - Fixing the incense table, because I cannot seem to get it to work no matter how hard I try.
 - Patching for utilization of Epoch's art (to prevent redundancy errors)

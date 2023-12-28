@@ -1,6 +1,7 @@
  <? xml version="1.0" encoding="utf-8"?>
 
  <Defs>
+
   <ThingDef ParentName="BenchBase">
     <defName>IncenseTable</defName>
     <label>incense table</label>
@@ -66,4 +67,5 @@
       <li>DrugProduction</li>
     </researchPrerequisites>
   </ThingDef>
+  
 </Defs>

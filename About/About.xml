@@ -8,7 +8,7 @@
     </supportedVersions>
 	
 	<packageId>grey.incense.redux</packageId>
-	<description>Adds a production chain for incense from Epochs - Incense by DetVisor. Currently testing out balance and looking to add features. Incense workbench is not as of yet working, view the README for other details. -- Grey
+	<description>Adds significantly more content and requires incense as fuel for incense burners. Functionality is completely reliant on the original mod.
 	</description>
     <modDependencies>
           <li>
