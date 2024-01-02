@@ -34,7 +34,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -76,7 +75,6 @@
       <Crafting>8</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -118,7 +116,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-        <li>IncenseTable</li>
         <li>CraftingSpot</li>
         <li>DrugLab</li>
     </recipeUsers>
@@ -160,7 +157,6 @@
       <Crafting>7</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -202,7 +198,6 @@
       <Crafting>9</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -236,7 +231,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -269,7 +263,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -302,7 +295,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -336,7 +328,6 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <displayPriority>0</displayPriority>
@@ -368,7 +359,6 @@
       <Crafting>8</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -401,7 +391,6 @@
       <Crafting>8</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -442,7 +431,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>DrugLab</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
@@ -483,7 +471,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -525,7 +512,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -567,7 +553,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -617,7 +602,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -667,7 +651,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -701,7 +684,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>
@@ -735,7 +717,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
       <recipeUsers>
-        <li>IncenseTable</li>
         <li>CraftingSpot</li>
         <li>DrugLab</li>
       </recipeUsers>
@@ -769,7 +750,6 @@
       <Crafting>5</Crafting>
     </skillRequirements>
     <recipeUsers>
-      <li>IncenseTable</li>
       <li>CraftingSpot</li>
       <li>DrugLab</li>
     </recipeUsers>

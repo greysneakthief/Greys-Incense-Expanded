@@ -28,13 +28,14 @@ Roadmap:
 Current workload -->
 - Heavily tweaking balance for harvest, crafting value add, usage of incense, etc:
     - <del>Recipe errors were found and fixed.</del>
-    - Will probably adjust ratios for regrowing plants, due to ease of sowing and repeatable harvests (gum tragacanth, patchouli, etc.)
+    - <del>Will probably adjust ratios for regrowing plants, due to ease of sowing and repeatable harvests (gum tragacanth, patchouli, etc.)</del>
+    - [2024-01-01] From playtesting determined that growth period for plants might be too long, looking at reducing them by 25-30% after more extensive testing.
 - Making incense crafting a viable stream for selling to factions:
     - <del>Shaman merchants and exotic wares merchants in particular.</del>
 - Better art for trees.
 - <del>Better art for sage bundles.</del>
-- Better art for essential oils.
-- Fixing the incense table, because I cannot seem to get it to work no matter how hard I try.
+- Better art for essential oils [2024-01-01] and Monarda
+- [2024-01-01] Some sort of internal error. For testing purposes I've decided to remove mentions of IncenseTable from the recipes and the textures for now (boo, I did pretty well on those...) Still going to troubleshoot it<del>Fixing the incense table, because I cannot seem to get it to work no matter how hard I try.</del>
 - Patching for utilization of Epoch's art (to prevent redundancy errors)
 
 Next up -->
