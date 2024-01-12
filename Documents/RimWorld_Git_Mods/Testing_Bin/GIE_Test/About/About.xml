@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Grey's Incense Overhaul</name>
+    <author>Greysneakthief</author>
+	
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+	
+	<packageId>grey.incense.redux</packageId>
+	<description>Adds significantly more content and requires incense as fuel for incense burners. Functionality is completely reliant on the original mod.
+	</description>
+    <modDependencies>
+          <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+          </li>
+	</modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    </loadAfter>
+
+</ModMetaData>

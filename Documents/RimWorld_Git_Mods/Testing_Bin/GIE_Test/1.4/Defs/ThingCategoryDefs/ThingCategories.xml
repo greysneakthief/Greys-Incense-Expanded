@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>GI_IncenseMaterials</defName>
+      <label>incense materials</label>
+      <parent>Manufactured</parent>
+      <iconPath>UI/Icons/ThingCategories/IncenseMaterials</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>GI_AromaticPlant</defName>
+      <label>aromatic plant matter</label>
+      <parent>PlantMatter</parent>
+      <iconPath>UI/Icons/ThingCategories/AromaticPlant</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>GI_Incenses</defName>
+      <label>incenses</label>
+      <parent>Manufactured</parent>
+      <iconPath>UI/Icons/ThingCategories/IncenseMaterials</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+
+</Defs>

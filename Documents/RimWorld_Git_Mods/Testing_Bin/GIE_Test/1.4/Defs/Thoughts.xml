@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+ <!--Incense-->
+ 
+
+  <ThoughtDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>IncenseThought</defName>
+    <workerClass>VanillaFurnitureExpanded.ThoughtWorker_ThoughtFromNearbyThingDef</workerClass>
+    <stages>
+      <li>
+        <label>pleasant smell</label>
+        <description>The perfume of incense calms my mind and my soul.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
+        <ThingToGiveThought>MA_IncenseBurner</ThingToGiveThought>
+        <DistanceToGiveThought>4</DistanceToGiveThought>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>StandingIncenseThought</defName>
+    <workerClass>VanillaFurnitureExpanded.ThoughtWorker_ThoughtFromNearbyThingDef</workerClass>
+    <stages>
+      <li>
+        <label>pleasant smell</label>
+        <description>The perfume of incense calms my mind and my soul.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
+        <ThingToGiveThought>MA_StandingIncenseBurner</ThingToGiveThought>
+        <DistanceToGiveThought>4</DistanceToGiveThought>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>GI_SpeshulIncenseThought</defName>
+    <workerClass>VanillaFurnitureExpanded.ThoughtWorker_ThoughtFromNearbyThingDef</workerClass>
+    <stages>
+      <li>
+        <label>exceptionally pleasant smell</label>
+        <description>One's own thoughts are insubstantial as incense clouds</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
+        <ThingToGiveThought>GI_SpeshulIncenseBurner</ThingToGiveThought>
+        <DistanceToGiveThought>5</DistanceToGiveThought>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>GI_StandingSpeshulIncenseThought</defName>
+    <workerClass>VanillaFurnitureExpanded.ThoughtWorker_ThoughtFromNearbyThingDef</workerClass>
+    <stages>
+      <li>
+        <label>exceptionally pleasant smell</label>
+        <description>One's own thoughts are insubstantial as incense clouds</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
+        <ThingToGiveThought>GI_StandingSpeshulIncenseBurner</ThingToGiveThought>
+        <DistanceToGiveThought>5</DistanceToGiveThought>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+
+</Defs>

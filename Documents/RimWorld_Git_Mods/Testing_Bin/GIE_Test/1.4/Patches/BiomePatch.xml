@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Preliminary Biome List
+	Need to add my favourite, cloud forest, which will have Tabunoki and Sandalwood together. -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+		<value>
+			<GI_Tabunoki>0.01</GI_Tabunoki>
+			<GI_Monarda>0.01</GI_Monarda>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/wildPlants</xpath>
+		<value>
+			<GI_Boswellia>0.01</GI_Boswellia>
+			<GI_White_Sage>0.03</GI_White_Sage>
+			<GI_Astragalus>0.01</GI_Astragalus>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
+		<value>
+			<GI_Monarda>0.01</GI_Monarda>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/wildPlants</xpath>
+		<value>
+			<GI_Tabunoki>0.01</GI_Tabunoki>
+			<GI_Monarda>0.01</GI_Monarda>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildPlants</xpath>
+		<value>
+			<GI_Monarda>0.01</GI_Monarda>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Desert"]/wildPlants</xpath>
+		<value>
+			<GI_Boswellia>0.02</GI_Boswellia>
+			<GI_White_Sage>0.02</GI_White_Sage>
+			<GI_Astragalus>0.01</GI_Astragalus>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Tundra"]/wildPlants</xpath>
+		<value>
+			<GI_Monarda>0.01</GI_Monarda>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<value>
+			<GI_Sandalwood>0.01</GI_Sandalwood>
+			<GI_Patchouli>0.02</GI_Patchouli>
+			<GI_Tabunoki>0.01</GI_Tabunoki>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants</xpath>
+		<value>
+			<GI_Sandalwood>0.02</GI_Sandalwood>
+			<GI_Patchouli>0.02</GI_Patchouli>
+			<GI_Tabunoki>0.01</GI_Tabunoki>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/wildPlants</xpath>
+		<value>
+			<GI_Boswellia>0.01</GI_Boswellia>
+			<GI_White_Sage>0.01</GI_White_Sage>
+		</value>
+	</Operation>
+	
+
+
+	
+
+
+
+
+	
+	
+</Patch>

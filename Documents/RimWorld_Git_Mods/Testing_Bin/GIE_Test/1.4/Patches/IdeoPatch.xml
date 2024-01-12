@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDefs_Buildings[defName="IncenseShrine"]/costList</xpath>
+        <value>
+            <costlist>
+                <WoodLog>20</WoodLog>
+                <GI_Incense_Sticks>20</GI_Incense_Sticks>
+            </costlist>
+        </value>
+    </Operation>
+</Patch>

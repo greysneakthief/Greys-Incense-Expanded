@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>GI_Patchouli</defName>
+		<label>patchouli shrub</label>
+		<description>This tropical perennial has a distinct scent often associated with hippies. Historically, the essential oil of Patchouli has been extensively used in perfumery blending.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/Crops/GI_Patchouli</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>20</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>1</fertilityMin>
+			<fertilitySensitivity>1.2</fertilitySensitivity>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestedThingDef>GI_Patchouli_Leaves</harvestedThingDef>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestYield>25</harvestYield>
+			<harvestWork>200</harvestWork>
+			<sowMinSkill>5</sowMinSkill>
+            <drugForHarvestPurposes>True</drugForHarvestPurposes>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+            <mustBeWildToSow>true</mustBeWildToSow>
+			<growDays>13.3</growDays>			
+			<visualSizeRange>0.3~1</visualSizeRange>
+			<immatureGraphicPath>Things/Plants/Crops/GI_Patchouli_Immature</immatureGraphicPath>
+			<wildOrder>2</wildOrder>
+			<purpose>Misc</purpose>
+			<humanFoodPlant>false</humanFoodPlant>
+		</plant>
+	</ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+		<defName>GI_White_Sage</defName>
+		<label>white sage bush</label>
+		<description>This naturally occuring shrub from the salvia family is renowned for its use in smudging. In spite of being a hardy plant in the regions where it is found, it is sometimes difficult to find due to overharvesting and restrictive biome requirements.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/Crops/GI_White_Sage</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>20</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>.7</fertilityMin>
+			<fertilitySensitivity>.5</fertilitySensitivity>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestedThingDef>GI_Sage_Bundle</harvestedThingDef>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestYield>35</harvestYield>
+			<harvestWork>200</harvestWork>
+			<sowMinSkill>7</sowMinSkill>
+            <drugForHarvestPurposes>True</drugForHarvestPurposes>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+            <mustBeWildToSow>true</mustBeWildToSow>
+			<growDays>23</growDays>			
+			<visualSizeRange>0.3~1</visualSizeRange>
+			<immatureGraphicPath>Things/Plants/Crops/GI_White_Sage_Immature</immatureGraphicPath>
+			<wildOrder>2</wildOrder>
+			<purpose>Misc</purpose>
+			<humanFoodPlant>false</humanFoodPlant>
+		</plant>
+	</ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+		<defName>GI_Astragalus</defName>
+		<label>astragalus gummifer</label>
+		<description>Colloquially called goat's-thorn, astragalus gummifer is a good source of gum tragacanth, which is essential for many applications including incense making.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/Crops/GI_Astragalus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>20</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>.7</fertilityMin>
+			<fertilitySensitivity>.8</fertilitySensitivity>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestedThingDef>GI_Tragacanth_Gum</harvestedThingDef>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
+			<harvestYield>25</harvestYield>
+			<harvestWork>200</harvestWork>
+			<sowMinSkill>5</sowMinSkill>
+            <drugForHarvestPurposes>True</drugForHarvestPurposes>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+            <mustBeWildToSow>true</mustBeWildToSow>
+			<growDays>12.5</growDays>			
+			<visualSizeRange>0.3~1</visualSizeRange>
+			<immatureGraphicPath>Things/Plants/Crops/GI_Astragalus_Immature</immatureGraphicPath>
+			<wildOrder>2</wildOrder>
+			<purpose>Misc</purpose>
+			<humanFoodPlant>false</humanFoodPlant>
+		</plant>
+	</ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+		<defName>GI_Monarda</defName>
+		<label>monarda</label>
+		<description>The flowers of plants in the genus monarda are so pleasantly fragrant, that colloquially they are also known as bee balm or wild bergamont. Several varieties span a large range of biomes, including both wild and domestic cultivars.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/Crops/GI_Monarda</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>20</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>.7</fertilityMin>
+			<fertilitySensitivity>.8</fertilitySensitivity>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestedThingDef>GI_Wild_Bergamont</harvestedThingDef>
+			<harvestYield>20</harvestYield>
+			<harvestWork>200</harvestWork>
+			<sowMinSkill>5</sowMinSkill>
+            <drugForHarvestPurposes>True</drugForHarvestPurposes>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>11.3</growDays>			
+			<visualSizeRange>0.3~1</visualSizeRange>
+			<immatureGraphicPath>Things/Plants/Crops/GI_Monarda_Immature</immatureGraphicPath>
+			<wildOrder>2</wildOrder>
+			<purpose>Misc</purpose>
+			<humanFoodPlant>false</humanFoodPlant>
+		</plant>
+	</ThingDef>
+
+            
+</Defs>

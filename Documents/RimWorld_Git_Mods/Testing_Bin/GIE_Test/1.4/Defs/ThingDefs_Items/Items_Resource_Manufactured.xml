@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Essential_Oils</defName>
+    <label>essential oils</label>
+    <description>Essential oils are efficiently extracted organic components of plants, which are often said to contain the essence of the plant.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Essential</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>6</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+<ThingDef ParentName="ResourceBase">
+    <defName>GI_Makko_Powder</defName>
+    <label>makko</label>
+    <description>The powdered bark of the Tabunoki tree, ready for use in making incense.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Powder/GI_Makko_Powder</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Sandalwood_Powder</defName>
+    <label>powdered sandalwood</label>
+    <description>Powdered sandalwood is similar to makko in its utility but can also be used as incense.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Powder/GI_Sandalwood_Powder</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>14.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Frankincense_Powder</defName>
+    <label>powdered frankincense</label>
+    <description>Powdered frankincense. This can be mixed into chips and used as a more efficient externally combusted incense, or mixed into paste.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Powder/GI_Frankincense_Powder</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.35</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Aromatic_Paste</defName>
+    <label>aromatic paste</label>
+    <description>A mash of aromatic plants. Before the advancement of more complex distillation techniques, incense manufacturing often involved binding aromatic paste with, gum, a combustive agent and an oxidizer.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Pastes/GI_Aromatic_Paste</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Peerless_Paste</defName>
+    <label>peerless aromatic paste</label>
+    <description>No expense was spared in the creation of this particular assortment of aromatics. Due to the choosiness required for its composition it is a bit wasteful to make.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Pastes/GI_Peerless_Paste</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>14.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>GI_IncenseMaterials</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Peerless_Incense_Sticks</defName>
+    <label>peerless incense sticks</label>
+    <description>Made from exceptional materials, the effects of this incense suffuse the mind at greater distances and to greater effect.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Incense/GI_Peerless_Incense_Sticks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>14.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+      <li>GI_Incenses</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Incense_Sticks</defName>
+    <label>incense sticks</label>
+    <description>Aromatic materials blend together to create pleasant aromas which soothe the mind and aid contemplation.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Incense/GI_Incense_Sticks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+      <li>GI_Incenses</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Peerless_Coreless_Incense</defName>
+    <label>peerless coreless incense sticks</label>
+    <description>Made from exceptional materials, the effects of this incense suffuse the mind at greater distances and to greater effect. This particular version does not utilize a wooden core.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Incense/GI_Peerless_Coreless_Incense</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>14.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+      <li>GI_Incenses</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GI_Coreless_Incense</defName>
+    <label>coreless incense sticks</label>
+    <description>Aromatic materials blend together to create pleasant aromas which soothe the mind and aid contemplation. This particular version does not utilize a wooden core</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/Resource/Incense/GI_Coreless_Incense</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.5</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+      <li>GI_Incenses</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

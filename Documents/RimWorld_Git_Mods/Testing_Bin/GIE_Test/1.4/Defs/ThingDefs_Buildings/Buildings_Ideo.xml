@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>MA_IncenseBurner</defName>
+        <label>incense burner</label>
+        <description>A small ash-filled bowl containing lit incense sticks that produce a pleasant floral aroma. Incense is most often found inside of churches or monasteries, as it is thought to rid holy grounds of malevolent spirits.</description>
+        <drawerType>RealtimeOnly</drawerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+          <isEdifice>false</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+
+        <thingCategories>
+          <li>BuildingsFurniture</li>
+        </thingCategories>
+        <designationCategory>Furniture</designationCategory>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <fillPercent>0.15</fillPercent>
+        
+        <graphicData>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Things/Building/IncenseBurner/IncenseBurner</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(2,2)</drawSize>
+          <shadowData>
+            <volume>(0.92, 1 ,0.92)</volume>
+          </shadowData>
+        </graphicData>
+        <size>(1,1)</size>
+        <costList>
+          <WoodLog>5</WoodLog>
+        </costList>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+          <MaxHitPoints>35</MaxHitPoints>
+          <WorkToBuild>2500</WorkToBuild>
+          <Beauty>5</Beauty>
+          <Mass>1</Mass>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <placeWorkers>
+          <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <costStuffCount>10</costStuffCount>
+        <stuffCategories>
+          <li>Metallic</li>
+          <li>Stony</li>
+      </stuffCategories>
+      <rotatable>true</rotatable>
+      <specialDisplayRadius>4</specialDisplayRadius> 
+        <comps>
+        <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <externalTicking>true</externalTicking>
+        <fuelFilter>
+          <thingDefs>
+            <li>GI_Incense_Sticks</li>
+            <li>GI_Coreless_Incense</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        </li>
+          <li Class="CompProperties_SpawnEffectersInRoom">
+             <effecter>MA_IncenseBurnerSmoke</effecter>
+             <radius>20</radius>
+         </li>
+         <li Class="CompProperties_SmokeCloudMaker">
+          <sourceStreamEffect>MA_IncenseBurnerSmoke</sourceStreamEffect>
+          <cloudRadius>3</cloudRadius>
+          <fleckScale>4</fleckScale>
+          <cloudFleck>MA_IncenseSmokeCloud</cloudFleck>
+          <fleckSpawnMTB>70</fleckSpawnMTB>
+        </li>
+        <li Class="CompProperties_MeditationFocus">
+          <statDef>MeditationFocusStrength</statDef>
+          <focusTypes>
+            <li>Artistic</li>
+            <li>Natural</li>
+            <li>Morbid</li>
+          </focusTypes>
+        </li>
+        </comps>
+      </ThingDef>
+
+      <ThingDef ParentName="BuildingBase">
+        <defName>MA_StandingIncenseBurner</defName>
+        <label>incense tower</label>
+        <description>A tall pole topped with an ash-filled bowl containing lit incense sticks that produce a pleasant floral aroma. Incense is most often found inside of churches or monasteries, as it is thought to rid holy grounds of malevolent spirits.</description>
+        <drawerType>RealtimeOnly</drawerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+          <isEdifice>true</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+
+        <thingCategories>
+          <li>BuildingsFurniture</li>
+        </thingCategories>
+        <designationCategory>Furniture</designationCategory>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <fillPercent>0.15</fillPercent>
+        
+        <graphicData>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Things/Building/StandingIncenseBurner/StandingIncenseBurner</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(2,2)</drawSize>
+          <shadowData>
+            <volume>(0.92, 1 ,0.92)</volume>
+          </shadowData>
+        </graphicData>
+        <size>(1,1)</size>
+        <costList>
+          <WoodLog>5</WoodLog>
+        </costList>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+          <MaxHitPoints>45</MaxHitPoints>
+          <WorkToBuild>2750</WorkToBuild>
+          <Beauty>8</Beauty>
+          <Mass>2.2</Mass>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <placeWorkers>
+          <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+          <li>Metallic</li>
+          <li>Stony</li>
+      </stuffCategories>
+      <rotatable>true</rotatable>
+      <specialDisplayRadius>4</specialDisplayRadius> 
+        <comps>
+        <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <externalTicking>true</externalTicking>
+        <fuelFilter>
+          <thingDefs>
+            <li>GI_Incense_Sticks</li>
+            <li>GI_Coreless_Incense</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        </li>
+          <li Class="CompProperties_SpawnEffectersInRoom">
+             <effecter>MA_IncenseBurnerSmoke</effecter>
+             <radius>20</radius>
+         </li>
+         <li Class="CompProperties_SmokeCloudMaker">
+          <sourceStreamEffect>MA_StandingIncenseBurnerSmoke</sourceStreamEffect>
+          <cloudRadius>3</cloudRadius>
+          <fleckScale>4</fleckScale>
+          <cloudFleck>MA_IncenseSmokeCloud</cloudFleck>
+          <fleckSpawnMTB>70</fleckSpawnMTB>
+        </li>
+        <li Class="CompProperties_MeditationFocus">
+          <statDef>MeditationFocusStrength</statDef>
+          <focusTypes>
+            <li>Artistic</li>
+            <li>Natural</li>
+            <li>Morbid</li>
+          </focusTypes>
+        </li>
+        </comps>
+      </ThingDef>
+
+      <ThingDef ParentName="BuildingBase">
+        <defName>GI_SpeshulIncenseBurner</defName>
+        <label>peerless incense burner</label>
+        <description>A small ash-filled bowl containing lit incense sticks that produce a pleasant aroma. This particular vessel would not be worthy of lesser incense, lest the dead feel disrespected.</description>
+        <drawerType>RealtimeOnly</drawerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+          <isEdifice>false</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+
+        <thingCategories>
+          <li>BuildingsFurniture</li>
+        </thingCategories>
+        <designationCategory>Furniture</designationCategory>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <fillPercent>0.15</fillPercent>
+        
+        <graphicData>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Things/Building/GISpeshulIncenseBurner/GISpeshulIncenseBurner</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(2,2)</drawSize>
+          <shadowData>
+            <volume>(0.92, 1 ,0.92)</volume>
+          </shadowData>
+        </graphicData>
+        <size>(1,1)</size>
+        <costList>
+          <WoodLog>5</WoodLog>
+        </costList>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+          <MaxHitPoints>35</MaxHitPoints>
+          <WorkToBuild>2500</WorkToBuild>
+          <Beauty>10</Beauty>
+          <Mass>1</Mass>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <placeWorkers>
+          <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <costStuffCount>10</costStuffCount>
+        <stuffCategories>
+          <li>Metallic</li>
+          <li>Stony</li>
+      </stuffCategories>
+      <rotatable>true</rotatable>
+      <specialDisplayRadius>5</specialDisplayRadius> 
+        <comps>
+        <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>20.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <externalTicking>true</externalTicking>
+        <fuelFilter>
+          <thingDefs>
+            <li>GI_Peerless_Incense_Sticks</li>
+            <li>GI_Peerless_Coreless_Incense</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        </li>
+          <li Class="CompProperties_SpawnEffectersInRoom">
+             <effecter>MA_IncenseBurnerSmoke</effecter>
+             <radius>20</radius>
+         </li>
+         <li Class="CompProperties_SmokeCloudMaker">
+          <sourceStreamEffect>MA_IncenseBurnerSmoke</sourceStreamEffect>
+          <cloudRadius>3</cloudRadius>
+          <fleckScale>4</fleckScale>
+          <cloudFleck>MA_IncenseSmokeCloud</cloudFleck>
+          <fleckSpawnMTB>70</fleckSpawnMTB>
+        </li>
+        <li Class="CompProperties_MeditationFocus">
+          <statDef>MeditationFocusStrength</statDef>
+          <focusTypes>
+            <li>Artistic</li>
+            <li>Natural</li>
+            <li>Morbid</li>
+          </focusTypes>
+        </li>
+        </comps>
+      </ThingDef>
+
+      <ThingDef ParentName="BuildingBase">
+        <defName>GI_StandingSpeshulIncenseBurner</defName>
+        <label>special incense tower</label>
+        <description>A tall pole topped with an ash-filled bowl containing lit incense sticks that produce a pleasant floral aroma. Incense is most often found inside of churches or monasteries, as it is thought to rid holy grounds of malevolent spirits.</description>
+        <drawerType>RealtimeOnly</drawerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+          <isEdifice>true</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+
+        <thingCategories>
+          <li>BuildingsFurniture</li>
+        </thingCategories>
+        <designationCategory>Furniture</designationCategory>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <fillPercent>0.15</fillPercent>
+        
+        <graphicData>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Things/Building/GIStandingSpeshulIncenseBurner/GIStandingSpeshulIncenseBurner</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(2,2)</drawSize>
+          <shadowData>
+            <volume>(0.92, 1 ,0.92)</volume>
+          </shadowData>
+        </graphicData>
+        <size>(1,1)</size>
+        <costList>
+          <WoodLog>5</WoodLog>
+        </costList>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+          <MaxHitPoints>45</MaxHitPoints>
+          <WorkToBuild>2750</WorkToBuild>
+          <Beauty>8</Beauty>
+          <Mass>2.2</Mass>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <placeWorkers>
+          <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+          <li>Metallic</li>
+          <li>Stony</li>
+      </stuffCategories>
+      <rotatable>true</rotatable>
+      <specialDisplayRadius>5</specialDisplayRadius> 
+        <comps>
+        <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>20.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <externalTicking>true</externalTicking>
+        <fuelFilter>
+          <thingDefs>
+            <li>GI_Peerless_Incense_Sticks</li>
+            <li>GI_Peerless_Coreless_Incense</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        </li>
+          <li Class="CompProperties_SpawnEffectersInRoom">
+             <effecter>MA_IncenseBurnerSmoke</effecter>
+             <radius>20</radius>
+         </li>
+         <li Class="CompProperties_SmokeCloudMaker">
+          <sourceStreamEffect>MA_StandingIncenseBurnerSmoke</sourceStreamEffect>
+          <cloudRadius>3</cloudRadius>
+          <fleckScale>4</fleckScale>
+          <cloudFleck>MA_IncenseSmokeCloud</cloudFleck>
+          <fleckSpawnMTB>70</fleckSpawnMTB>
+        </li>
+        <li Class="CompProperties_MeditationFocus">
+          <statDef>MeditationFocusStrength</statDef>
+          <focusTypes>
+            <li>Artistic</li>
+            <li>Natural</li>
+            <li>Morbid</li>
+          </focusTypes>
+        </li>
+        </comps>
+      </ThingDef>
+</Defs>
