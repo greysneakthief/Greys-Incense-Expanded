@@ -6,8 +6,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingCategories>
-      <li>GI_AromaticPlantBase</li>
-      <li>PlantMatter</li>
+      <li>GI_AromaticPlant</li>
     </thingCategories>
   </ThingDef>
 
@@ -24,7 +23,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>20</daysToRotStart>
+        <daysToRotStart>15</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
@@ -58,8 +57,11 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="GI_AromaticPlantBase">
+  <ThingDef ParentName="RoughPlantBase">
     <defName>GI_Tragacanth_Gum</defName>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
     <label>gum tragacanth</label>
     <description>Gum tragacanth is used as an emulsifier, thickener or binding agent similar to gum arabic or carrageenan.</description>
     <possessionCount>10</possessionCount>

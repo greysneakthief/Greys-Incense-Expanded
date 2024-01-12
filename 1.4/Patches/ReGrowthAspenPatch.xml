@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+    <li>ReGrowth: Aspen</li>
+    </mods>
+    <match Class="PatchOperationAddModExtension">
+     <xpath>/Defs/BiomeDef[defName = "RG_AspenForest"]/wildPlants</xpath>
+      <value>
+       <GI_Monarda>0.03</GI_Monarda>
+     </value>
+    </match>
+  </Operation>
+</Patch>

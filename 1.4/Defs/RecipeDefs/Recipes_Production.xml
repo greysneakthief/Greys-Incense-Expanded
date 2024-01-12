@@ -573,7 +573,7 @@
       <li>
         <filter>
           <categories>
-            <li>GI_AromaticPlantBase</li>
+            <li>GI_AromaticPlant</li>
           </categories>
         </filter>
         <count>20</count>
