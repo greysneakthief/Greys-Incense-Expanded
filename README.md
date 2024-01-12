@@ -30,8 +30,10 @@ Current workload -->
     - <del>Recipe errors were found and fixed.</del>
     - <del>Will probably adjust ratios for regrowing plants, due to ease of sowing and repeatable harvests (gum tragacanth, patchouli, etc.)</del>
     - [2024-01-01] From playtesting determined that growth period for plants might be too long, looking at reducing them by 25-30% after more extensive testing.
+    - [2024-01-12] From playtesting realized bug in the aromatics recipe with the custom ThingCategory GI_AromaticPlant recipe for paste, now troubleshooting fix.
 - Making incense crafting a viable stream for selling to factions:
     - <del>Shaman merchants and exotic wares merchants in particular.</del>
+    - Exotic goods dealers now deal with raw incense materials, but need to deal with manufactured and finished incense products.
 - Better art for trees.
 - <del>Better art for sage bundles.</del>
 - Better art for essential oils [2024-01-01] and Monarda
@@ -41,7 +43,9 @@ Current workload -->
 Next up -->
 - Incense art review and improvement.
 - Better implementation of patches.
+    - <del>[2024-01-12] Added ReGrowth: Aspen patch for Monarda.</del>
 - Integration of current plants with popular biome mods.
+    - ReGrowth partially complete. Unsure about integration with the rather complex Ashlands.
 - Implementation of braziers that utilize raw aromatics (Frankincense chips, sandalwood, sage, etc)
 - Less recipe clutter.
 - Integration with Ideology:
